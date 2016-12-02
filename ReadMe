@@ -1,0 +1,18 @@
+ReadMe for Project 2A:
+The included makefile can generates the optimized and unoptimized codes. The following are the makefile directives:
+
+make or make alpha_time
+-Generates a binary called alpha_time that contains the optimized version of the code. 
+
+make original
+-Generates a binary called test_original that contains the original code compiled with no optimizations.
+
+make alpha_time.s
+-Generates a .s dissasembly file of the optimized code binary. 
+
+make clean
+-Removes all the generated files
+
+Usage of the binary:
+> ./alpha_time <foreground_image_name> <background_image_name> <output_image_name>
+- The foreground and background images should be in the same directory as that of the binary. 
